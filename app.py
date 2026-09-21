@@ -22,14 +22,13 @@ def classificar_consumo():
     elif tipo_imovel == 'apartamento' and consumo < 10:
         print('Consumo econômico – excelente controle de água!')
     
-    # 3. Apartamento (de 10 até 25) ou Casa com consumo de até 25 m³
-    elif (tipo_imovel in ['apartamento', 'casa']) and consumo <= 25:
+    # 3. Apartamento (com consumo >= 10) OU Casa com consumo de até 25 m³
+    elif tipo_imovel == 'apartamento' or (tipo_imovel == 'casa' and consumo <= 25):
         print('Consumo moderado – dentro do padrão residencial.')
     
-    # 4. Qualquer outro caso (consumo acima de 25 m³ para casa ou apartamento)
+    # 4. Qualquer outro caso (Casa com consumo acima de 25 m³)
     else:
         print('Consumo excessivo – adote medidas de economia e verifique vazamentos.')
 
 if __name__ == '__main__':
     classificar_consumo()
-
