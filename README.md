@@ -7,7 +7,7 @@
 ![Sustentabilidade](https://img.shields.io/badge/Água-Sustentável-0077B6?style=for-the-badge)
 
 ## 📌 Objetivo do Sistema
-Programa desenvolvido para a campanha de conscientização ambiental da companhia de saneamento local. O sistema classifica o perfil de consumo de água de imóveis (*comercial*, *casa* ou *apartamento*) com base no volume mensal ($m^3$) e exibe alertas educativos personalizados ao usuário.
+Programa desenvolvido para a campanha de conscientização ambiental da companhia de saneamento local. O sistema classifica o perfil de consumo de água de imóveis (*comercial*, *casa* ou *apartamento*) com base no volume mensal (m³) e exibe alertas educativos personalizados ao usuário.
 
 ---
 
